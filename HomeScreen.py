@@ -40,7 +40,7 @@ class Application(tk.Tk):
         search_button.pack(pady=10)
 
         self.settings_pane = tk.Frame(self)
-        self.settings_pane.pack(fill="both", expand=True)
+        self.settings_pane.pack(pady=10, fill="both", expand=True)
 
         settings_label = tk.Label(self.settings_pane, text="Settings", font=("Arial", 16, "bold"))
         settings_label.grid(row=0, column=0, columnspan=2, pady=10)
